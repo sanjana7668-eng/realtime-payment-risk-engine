@@ -29,17 +29,20 @@ $$\text{Total System Cost} = C_{FP} \cdot N_{FP} + \sum_{i \in \text{FN}} \text{
 ## 🚀 Local Deployment
 
 1. **Clone Repository**:
-
-    git clone https://github.com/sanjana7668-eng/realtime-payment-risk-engine.git
-    cd realtime-payment-risk-engine
+   ```bash
+   git clone [https://github.com/sanjana7668-eng/realtime-payment-risk-engine.git](https://github.com/sanjana7668-eng/realtime-payment-risk-engine.git)
+   cd realtime-payment-risk-engine
+   ```
 
 2. **Install Dependencies**:
-
-    pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. **Launch Streamlit Risk Engine**:
-
-    streamlit run app.py
+   ```bash
+   streamlit run app.py
+   ```
 
 ---
 
@@ -51,11 +54,15 @@ $$\text{Total System Cost} = C_{FP} \cdot N_{FP} + \sum_{i \in \text{FN}} \text{
 - **Frontend/UI**: Streamlit
 - **Data Processing**: Pandas, NumPy
 
+---
+
 ## 📁 Project Structure
 
+```text
 ├── app.py                     # Streamlit risk engine application
 ├── xgb_fraud_model.pkl        # Serialized XGBoost classification model
 ├── scaler.pkl                 # Scaler artifact for feature normalization
 ├── sample_transactions.csv    # Sample data for live triage testing
 ├── requirements.txt           # Environment dependencies
 └── README.md                  # Project documentation
+```
