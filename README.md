@@ -60,6 +60,7 @@ $$\text{Total System Cost} = C_{FP} \cdot N_{FP} + \sum_{i \in \text{FN}} \text{
 
 ```text
 ├── app.py                     # Streamlit risk engine application
+├── payment_risk_engine.ipynb  # Full model training & XAI pipeline notebook
 ├── xgb_fraud_model.pkl        # Serialized XGBoost classification model
 ├── scaler.pkl                 # Scaler artifact for feature normalization
 ├── sample_transactions.csv    # Sample data for live triage testing
