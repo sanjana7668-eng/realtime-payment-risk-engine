@@ -6,7 +6,7 @@ import shap
 import joblib
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Barclays Risk Engine", layout="wide")
+st.set_page_config(page_title="Payment Risk Engine", layout="wide")
 
 st.title("💳 Real-Time Payment Risk & Anomaly Scoring Engine")
 st.markdown("Simulated live transaction triage, cost-loss optimization & explainable AI risk scoring.")
