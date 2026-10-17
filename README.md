@@ -30,7 +30,7 @@ $$\text{Total System Cost} = C_{FP} \cdot N_{FP} + \sum_{i \in \text{FN}} \text{
 
 1. **Clone Repository**:
    ```bash
-   git clone [https://github.com/sanjana7668-eng/realtime-payment-risk-engine.git](https://github.com/sanjana7668-eng/realtime-payment-risk-engine.git)
+   git clone https://github.com/sanjana7668-eng/realtime-payment-risk-engine.git
    cd realtime-payment-risk-engine
    ```
 
